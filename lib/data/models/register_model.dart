@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
-class  account_Model {
-
+class   register_Model {
+  String ?name;
   String email;
   String passoword;
+  String?phone;
 
 
-
- account_Model({
+  register_Model({
     required this.email,
     required this.passoword,
+    required this.name,
+    required this.phone,
 
 
   })

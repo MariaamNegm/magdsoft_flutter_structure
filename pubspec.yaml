@@ -37,13 +37,19 @@ dependencies:
   dio: ^4.0.6
   bloc: ^8.0.3
   flutter_bloc: ^8.0.1
+  google_fonts: ^3.0.1
+  another_flushbar: ^1.10.29
   shared_preferences: ^2.0.15
+  stream_chat_localizations: ^3.1.0
+  localization: ^2.1.0
   flutter_localizations:
     sdk: flutter
   flutter_translate: ^4.0.2
+  animated_splash_screen: ^1.1.0
   fluttertoast: ^8.0.9
   sizer: ^2.0.15
   flutter_svg_provider: ^1.0.3
+
 
 dev_dependencies:
   flutter_test:
@@ -69,8 +75,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/
     - assets/i18n/
+    - images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

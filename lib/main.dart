@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:stream_chat_localizations/stream_chat_localizations.dart';
 import 'package:flutter_translate/flutter_translate.dart';
 import 'package:magdsoft_flutter_structure/business_logic/bloc_observer.dart';
 import 'package:magdsoft_flutter_structure/business_logic/global_cubit/global_cubit.dart';
@@ -15,6 +16,7 @@ import 'package:intl/intl.dart';
 
 
 late LocalizationDelegate delegate;
+
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
